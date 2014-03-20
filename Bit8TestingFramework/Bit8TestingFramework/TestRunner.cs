@@ -17,7 +17,7 @@ namespace Bit8TestingFramework
     {
         private String path;
 
-        public TestRunner(String path) 
+        public TestRunner(String path)
         {
             this.path = path;
             TestResult tempTr = runTest();
@@ -38,12 +38,12 @@ namespace Bit8TestingFramework
             return tr;
         }
 
-        private string nextFileName() 
+        private string nextFileName()
         {
             string[] temp = Directory.GetFiles(Directory.GetCurrentDirectory() + @"\TempResults");
             string last = temp[temp.Length - 1];
             string bufferInteger = "";
-            for (int i = 0; i < last.Length; i++) 
+            for (int i = 0; i < last.Length; i++)
             {
                 if (last[i] == '_')
                 {

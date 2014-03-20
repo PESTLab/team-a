@@ -26,6 +26,7 @@ namespace Bit8TestingFramework_v2
             //call class to xml parsing
         }
 
+        //used to run tests
         private TestResult runTest()
         {
             CoreExtensions.Host.InitializeService();

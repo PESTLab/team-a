@@ -13,7 +13,7 @@ namespace Bit8TestingFramework_v2._0
         {
 
         }
-
+        //
         private MySqlConnection InitializeConnection() 
         {
             string server = "localhost";

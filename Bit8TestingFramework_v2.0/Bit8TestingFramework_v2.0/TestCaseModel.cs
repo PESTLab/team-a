@@ -8,6 +8,7 @@ namespace Bit8TestingFramework_v2._0
 {
     class TestCaseModel
     {
+        //test case variables
         public string testName;
         public string description;
         public Int32 caseNumber;

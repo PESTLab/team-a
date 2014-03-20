@@ -11,9 +11,9 @@ using NUnit.Framework.Constraints;
 using System.IO;
 using NUnit.Util;
 
-namespace Bit8TestingFramework_v2._0
+namespace Bit8Framework
 {
-    public class TestRunner
+    class TestRunner
     {
         private String path;
 
@@ -55,5 +55,6 @@ namespace Bit8TestingFramework_v2._0
             }
             return bufferInteger;
         }
+    }
     }
 }

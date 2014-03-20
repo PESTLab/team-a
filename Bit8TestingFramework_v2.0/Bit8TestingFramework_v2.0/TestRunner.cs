@@ -11,7 +11,7 @@ using NUnit.Framework.Constraints;
 using System.IO;
 using NUnit.Util;
 
-namespace Bit8TestingFramework
+namespace Bit8TestingFramework_v2
 {
     public class TestRunner
     {

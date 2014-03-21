@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bit8TestingFramework_v2._0
+namespace Bit8TestingFramework
 {
     class TestCaseModel
     {

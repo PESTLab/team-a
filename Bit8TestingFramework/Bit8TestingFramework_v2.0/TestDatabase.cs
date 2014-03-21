@@ -5,16 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
-namespace Bit8TestingFramework_v2._0
+namespace Bit8TestingFramework
 {
     class TestDatabase
     {
         public static void SaveTest(TestCaseModel newTest) 
         {
+            MySqlConnection con = TestDatabase.InitializeConnection();
+            con.Open();
 
         }
-        //
-        private MySqlConnection InitializeConnection() 
+        
+        private static MySqlConnection InitializeConnection() 
         {
             string server = "localhost";
             string database = "testingframeworkdb";

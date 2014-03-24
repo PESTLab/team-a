@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bit8TestingFramework
 {
-    class TestCaseModel
+    cls TestCaseModel
     {
         //test case variables
         public string testName;
